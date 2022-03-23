@@ -6,7 +6,7 @@ body{
   font-size: 16px;
   scroll-behavior: smooth;
   background-color: #b1f7f3;
-
+  padding: 0 20px;
 }
 
 
@@ -15,43 +15,8 @@ body{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 60px;
     text-align: center;
+    margin: 50px 0px;
     
-
-}
-
-
-
-.txt-lanc{
-
-  margin-top:20px;
-  margin-bottom: 30px;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 60px;
-
-
-}
-
-.txt-nos{
-  background-color: #3965f5;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 60px;
-  color: #d8eaee;
-  border-radius: 20px;
-
-
-}
-
-.
-
-
-.card-title{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-
-}
-
-.card-text{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 20px;
 
 }
 
@@ -81,13 +46,6 @@ body{
 
 
 
-.card {
-  gap: 15px;
-  border-color: #3965f5;
-  color: #d8eaee;
-  
-}
-
 
 
 @media (min-width: 1280px) {
@@ -103,14 +61,13 @@ body{
 
 
 
-.login{
-margin: 50px 300px 00px 300px;
+.formulario{
 background-color: #3965f5;
 display: block;
 padding: 40px;
 border-radius: 40px;
 color: #d8eaee;
-margin-top:50px;
+margin-top:10px;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 30px;
 text-align: center;
@@ -126,17 +83,20 @@ text-align: center;
 }
 
 #footer {
-  margin-top: 10px;
-   background-color: #3965f5;
- text-align: center;
- height: 100%;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #3965f5;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  
 }
 
-.txt-footer{ 
-display: inline-block;
-color: white;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: 20px;
 
-  
+.formulario img {
+  width: 100%;
 }
